@@ -1,0 +1,29 @@
+body{
+    background-color: wheat;
+}
+.container{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+.quote{
+    font-size: 1.5rem;
+}
+.quotes h3{
+    font-size: 1.5rem;
+}
+
+@media(max-width:480px){
+    .quote{
+        font-size: 1rem;
+    }
+    .quotes h3{
+        font-size: 1rem;
+    }
+      
+}
